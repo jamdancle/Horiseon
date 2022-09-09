@@ -19,18 +19,19 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* increase color depth for access */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #f6fa18;
 }
 
-/* navigation content starts */
+/* navigation content */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+
 }
 
 .header nav {
@@ -86,8 +87,25 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bd;
+    font-size: 130%;
+    /* increased font size above */
+}
+/* bring benefits together */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefits h3 {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +120,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -135,7 +154,17 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,7 +191,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
+.content img {
+max-height: 200px;
 
+}
+/*
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -175,6 +209,14 @@ p {
     max-height: 200px;
 }
 
+/* grouped h2 */
+
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+
+}
+/*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,7 +231,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+*/
 .footer {
     padding: 30px;
     clear: both;
@@ -200,3 +242,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* increased footer size */
